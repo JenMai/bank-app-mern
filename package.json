@@ -1,0 +1,29 @@
+{
+  "name": "bank-mern",
+  "version": "1.0.0",
+  "description": "bank account app with mern stack and plaid api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenMai/bank-app-mern.git"
+  },
+  "author": "Jennifer Maillot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JenMai/bank-app-mern/issues"
+  },
+  "homepage": "https://github.com/JenMai/bank-app-mern#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
